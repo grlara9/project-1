@@ -4,9 +4,7 @@ body {
 h1 {
     font-family: 'Liu Jian Mao Cao', cursive;;
 }
-.jumbotron-fluid {
-    background: #fff176;
-}
+
 
 .card {
     float: left;

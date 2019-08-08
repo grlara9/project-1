@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,18 +7,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="my-profile.css">
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
     <title>Take A Hike - My Profile</title>
   </head>
   <body>
-        <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                  <h1 class="display-4">Take A Hike</h1>
-                 
-                </div>
-              </div>
-              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Take a Hike</h1>
+        </div>
+      </div>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Sign In <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#">Sign In<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">My Profile</a>
@@ -50,13 +50,13 @@
               </nav>
 
 
-              <!--Containers for History, Favorites & Hikes done-->
+              <!--Containers for Hikes to Do, Favorites & Hikes done-->
 
               <div class="container">
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
                     <h5 class="card-title">Favorites</h5>
-                   
+                   <!--Area where hikes that have been favorited by user-->
                     <p class="card-text-fav"></p>
                     
                   </div>
@@ -65,7 +65,7 @@
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
                     <h5 class="card-title">Hikes to Do</h5>
-                
+                    <!--Area where hikes that have been chosen by user to do in the future-->
                     <p class="card-text-do"></p>
                   
                   </div>
@@ -74,7 +74,7 @@
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
                     <h5 class="card-title">Hikes Done</h5>
-                 
+                    <!--Area where hikes that have been done by user-->
                     <p class="card-text-done"></p>
                    
                   </div>

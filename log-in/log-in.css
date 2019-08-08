@@ -1,0 +1,29 @@
+.container {
+    width: 600px;
+    padding-top: 80px;
+    
+}
+
+body { 
+    background: url("../log-in/image/main-image-1000px.jpg") no-repeat center center fixed;
+     background-size: cover;
+
+}
+
+
+.display{
+    font-size: 7.5em;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: 800;
+    color: black;
+}
+
+
+p.lead {
+    color: white;
+    font-family: 'Farro', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+

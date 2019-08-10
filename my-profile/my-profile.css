@@ -1,8 +1,9 @@
 body {
     background: khaki;
 }
-h1 {
+.display-4{
     font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 6.5em;
 }
 
 .jumbotron-fluid {

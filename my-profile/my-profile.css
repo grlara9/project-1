@@ -2,11 +2,11 @@ body {
     background: khaki;
 }
 h1 {
-    font-family: 'Liu Jian Mao Cao', cursive;;
+    font-family: 'Liu Jian Mao Cao', cursive;
 }
 
 .jumbotron-fluid {
-    background: khaki
+    background: khaki; 
 }
 .card {
     float: left;

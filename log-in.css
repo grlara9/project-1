@@ -5,7 +5,7 @@
 }
 
 body { 
-    background: url("../log-in/image/main-image-1000px.jpg") no-repeat center center fixed;
+    background: url("./log-in/image/main-image-1000px.jpg") no-repeat center center fixed;
      background-size: cover;
 
 }

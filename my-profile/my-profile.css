@@ -1,5 +1,6 @@
 body {
-    background: khaki;
+    background-color: #e6ffff;
+
 }
 .display-4{
     font-family: 'Liu Jian Mao Cao', cursive;
@@ -7,10 +8,21 @@ body {
 }
 
 .jumbotron-fluid {
-    background: khaki; 
+    background: #e6ffff;
+
 }
 .card {
-    float: left;
-    position: relative;
+   float: left;
+    position: center;
+
+}
+#fathers {
+    font-size: 2em;
+
+    
+}
+#image {
+    position: center;
+    float: right;
 }
 

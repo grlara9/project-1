@@ -2,6 +2,7 @@ var userinput;
 var lat;
 var lon;
 $("#textvalue").on("click", function(){
+    
     lat="";
     lon="";
     userinput =$("input[name=result]").val();
